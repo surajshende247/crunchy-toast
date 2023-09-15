@@ -1,0 +1,41 @@
+{
+  "name": "crunchy-toast",
+  "version": "0.1.0",
+  "description": "A lightweight and customizable React Toast library for displaying crisp and informative messages.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surajshende247/react-crunchytoast"
+  },
+  "keywords": [
+    "react",
+    "toast",
+    "notification",
+    "message",
+    "ui"
+  ],
+  "author": "Suraj Shende",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
