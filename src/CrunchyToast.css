@@ -41,16 +41,20 @@
 
 .crunchy-toast.success {
   color: #4caf50;
+  border: 1px solid #4caf50;
 }
 
 .crunchy-toast.warning {
   color: #ff9800;
+  border: 1px solid #ff9800;
 }
 
 .crunchy-toast.alert {
   color: #f44336;
+  border: 1px solid #f44336;
 }
 
 .crunchy-toast.info {
   color: #2196f3;
+  border: 1px solid #2196f3;
 }
