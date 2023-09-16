@@ -6,6 +6,10 @@
   "scripts": {
     "build": "webpack --mode development"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surajshende247/crunchy-toast.git"
+  },
   "files": [
     "dist",
     "src",
