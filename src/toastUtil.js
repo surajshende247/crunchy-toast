@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import CrunchyToast from './CrunchyToast';
+import CrunchyToast from './CrunchyToast.jsx';
 
 const createToastContainer = () => {
   let container = document.getElementById('toast-container');
@@ -14,7 +14,7 @@ const createToastContainer = () => {
   return container;
 };
 
-const showToast = (message, type, duration = 3000) => {
+export const showToast = (message, type, duration = 3000) => {
   const toastContainer = createToastContainer();
 
   const toastElement = document.createElement('div');
@@ -34,6 +34,3 @@ const removeToast = (toastElement) => {
     toastContainer.removeChild(toastElement);
   }
 };
-
-export { showToast };
-

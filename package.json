@@ -1,35 +1,32 @@
 {
   "name": "crunchy-toast",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A lightweight and customizable React Toast library for displaying crisp and informative messages.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/surajshende247/react-crunchytoast"
+  "main": "dist/crunchy-toast.js",
+  "scripts": {
+    "build": "webpack --mode development"
   },
-  "keywords": [
-    "react",
-    "toast",
-    "notification",
-    "message",
-    "ui"
+  "files": [
+    "dist",
+    "src",
+    "package.json",
+    "README.md"
   ],
-  "author": "Suraj Shende",
+  "keywords": ["react", "library"],
+  "author": "Suraj Shennde",
   "license": "MIT",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+  "peerDependencies": {
+    "react": "^18.0.1",
+    "react-dom": "^18.0.1"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "css-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
   }
 }
