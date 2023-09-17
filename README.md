@@ -17,7 +17,7 @@ To use Crunchy Toast in your React application, follow these steps:
 1. Import the `showToast` function from the library:
 
 ```javascript
-import { showToast } from 'crunchy-toast';
+import showToast from 'crunchy-toast';
 ```
 
 2. Call `showToast` to display a toast notification:
