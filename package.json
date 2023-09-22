@@ -10,6 +10,7 @@
     "type": "git",
     "url": "https://github.com/surajshende247/crunchy-toast.git"
   },
+  "homepage": "https://surajshende247.github.io/crunchy-toast",
   "files": [
     "dist",
     "src",
