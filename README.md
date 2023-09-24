@@ -2,7 +2,7 @@
 
 Crunchy Toast is a lightweight, customizable, and easy-to-use React library for displaying toast notifications in your web applications.
 
-[![npm version](https://img.shields.io/npm/v/crunchy-toast.svg)](https://www.npmjs.org/package/acrunchy-toast)
+[![npm version](https://img.shields.io/npm/v/crunchy-toast.svg)](https://www.npmjs.org/package/crunchy-toast)
 [![npm downloads](https://img.shields.io/npm/dm/crunchy-toast.svg)](https://npm-stat.com/charts.html?package=crunchy-toast)
 
 ## Installation
